@@ -1,0 +1,70 @@
+local TrollConfig = {
+	Items = {
+		ConfettiBomb = {
+			DisplayName = "Confetti Bomb",
+			Description = "Covers the target in harmless confetti.",
+			DurationSeconds = 8,
+			CooldownSeconds = 45,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		SlipperyShoes = {
+			DisplayName = "Slippery Shoes",
+			Description = "Makes movement slippery for a short time.",
+			DurationSeconds = 10,
+			CooldownSeconds = 60,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		BigHead = {
+			DisplayName = "Big Head",
+			Description = "Temporarily enlarges the target's head.",
+			DurationSeconds = 20,
+			CooldownSeconds = 60,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		FakeTradeRequest = {
+			DisplayName = "Fake Trade Request",
+			Description = "Shows a fake trade prompt effect.",
+			DurationSeconds = 6,
+			CooldownSeconds = 30,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		DanceLock = {
+			DisplayName = "Dance Lock",
+			Description = "Temporarily locks the target into a dance effect.",
+			DurationSeconds = 8,
+			CooldownSeconds = 75,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		Airhorn = {
+			DisplayName = "Airhorn",
+			Description = "Plays a loud harmless airhorn effect.",
+			DurationSeconds = 3,
+			CooldownSeconds = 20,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		ReverseControls = {
+			DisplayName = "Reverse Controls",
+			Description = "Temporarily reverses movement controls.",
+			DurationSeconds = 7,
+			CooldownSeconds = 90,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+		TinyPlayer = {
+			DisplayName = "Tiny Player",
+			Description = "Temporarily shrinks the target.",
+			DurationSeconds = 15,
+			CooldownSeconds = 75,
+			IsTemporary = true,
+			CanAffectData = false,
+		},
+	},
+}
+
+return TrollConfig
